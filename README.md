@@ -3,5 +3,5 @@
 <h4>Lista de scripts:</h4>
 <ol>
 <li>Remover quantidade grande de arquivos com o mesmo nome, ou o mesmo formato;</li>
-<li></li>
+<li>Comparar os conteúdos de todos os arquivos na pasta, e dizer quais são iguais</li>
 </ol>
