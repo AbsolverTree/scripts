@@ -8,7 +8,6 @@ for (paths, dirs, file) in os.walk(mypath):
 
 iguais = []
 for i in files:
-    c = 0
     with open(i, 'r') as arq:
         for j in files:
             with open(j, 'r') as arq2:
