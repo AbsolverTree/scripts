@@ -1,4 +1,4 @@
-import glob, os
+import glob, os, collections
 
 mypath = os.getcwd()
 files = []
@@ -16,6 +16,12 @@ for i in files:
                     if arq.read() == arq2.read():
                         add = [i,j]
                         iguais.append(add)
-                else:
-                    pass
-print(iguais)
+
+for z in iguais:
+    if z[::-1] in iguais:
+       iguais.remove(z[::-1])
+if len(iguais) > 0:
+    for x in iguais:
+        print("O arquivo '{}' é igual ao '{}'".format(x[0],x[1]))
+else:
+    print("Todos os conteúdos são diferentes")
