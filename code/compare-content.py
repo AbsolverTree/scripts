@@ -1,4 +1,4 @@
-import glob, os, collections
+import os
 
 mypath = os.getcwd()
 files = []
