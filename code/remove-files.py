@@ -1,7 +1,6 @@
-import os, glob, shutil
+import os, glob
 
 path = os.getcwd()
-# print(os.listdir())
 name = input("Nome('*' caso o nome não importe):\n")
 formato = input("Formato(incluir o '.' antes):\n")
 files = glob.glob(path+"/"+name+formato)
