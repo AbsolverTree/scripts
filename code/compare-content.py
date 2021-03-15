@@ -23,4 +23,4 @@ if len(iguais) > 0:
     for x in iguais:
         print("O arquivo '{}' é igual ao '{}'".format(x[0],x[1]))
 else:
-    print("Todos os conteúdos são diferentes")
+    print("Conteúdos diferentes")
